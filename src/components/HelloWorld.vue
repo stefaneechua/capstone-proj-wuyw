@@ -9,7 +9,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'HASSSHHH'
+      msg: 'pakshettttttttttttttttttt'
     }
   }
 }
@@ -21,6 +21,7 @@ export default {
 div {
   background: $primary;
   padding: $width;
+  height: 650px;
 }
 
 </style>

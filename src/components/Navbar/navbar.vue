@@ -1,19 +1,20 @@
 <template>
-<div>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#">TEST MENU</a>
-            </div>
-        <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">Page 1</a></li>
-            <li><a href="#">Page 2</a></li>
-            <li><a href="#">Page 3</a></li>
-        </ul>
-        </div>
-    </nav>
-</div>
+  <div>
+      <b-navbar toggleable="md" type="dark" variant="info">
+        <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
+
+        <b-navbar-brand href="#">NavBar</b-navbar-brand>
+
+        <b-collapse is-nav id="nav_collapse">
+
+        <b-navbar-nav>
+          <b-nav-item href="#">Link</b-nav-item>
+          <b-nav-item href="#">Disabled</b-nav-item>
+        </b-navbar-nav>
+
+        </b-collapse>
+        </b-navbar>
+      </div>
 </template>
 
 <script>
@@ -23,8 +24,4 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-li, a {
-    color: red;
-    display: inline;
-}
 </style>
