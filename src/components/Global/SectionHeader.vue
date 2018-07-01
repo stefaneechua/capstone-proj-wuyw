@@ -1,20 +1,27 @@
 <template>
-    <div>
-        <h2> {{ SectionHeader }} </h2>
-    </div>
+  <header>
+    <h1>{{ title }}</h1>
+  </header>
 </template>
 
 <script>
 export default {
-  name: 'SectionHeader',
   data () {
     return {
-      SectionHeader: 'About'
+      title: 'About'
     }
   }
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+header {
+  background: green;
+  padding: 10px;
+}
 
+h1 {
+  color: #222;
+  text-align: center;
+}
 </style>
