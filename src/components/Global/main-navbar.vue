@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
       <b-navbar toggleable="md" type="light" class="container" id="main-navbar">
         <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
 
@@ -26,7 +26,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-div {
+#main-navbar {
   background: white;
 }
 

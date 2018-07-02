@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HomeBase from '@/components/Home/home-base.vue'
+import home from '@/components/Home/home.vue'
 
 Vue.use(Router)
 
@@ -8,8 +8,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'HomeBase',
-      component: HomeBase
+      name: 'home',
+      component: home
     }
   ]
 })

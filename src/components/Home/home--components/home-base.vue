@@ -4,7 +4,6 @@
 
 <script>
 export default {
-  name: 'home-base'
 }
 </script>
 
@@ -16,8 +15,8 @@ export default {
     background: $cathorange;
     -webkit-transform: skew(0deg, -10deg);
     transform: skew(0deg, -10deg);
-    padding: 200px 0;
-    // margin-top: -190px;
+    padding: 350px 0;
+    margin-top: -120px;
 }
 
 </style>
