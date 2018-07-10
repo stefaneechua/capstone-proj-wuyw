@@ -1,5 +1,7 @@
 <template>
-    <div class="bg-skew"></div>
+  <div id="hHome" class="bg-skew">
+    <h1>TEST</h1>
+  </div>
 </template>
 
 <script>

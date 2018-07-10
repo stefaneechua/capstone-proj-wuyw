@@ -10,6 +10,7 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
+// Global Components
 import Navbar from './components/Global/main-navbar.vue'
 import Footer from './components/Global/main-footer.vue'
 

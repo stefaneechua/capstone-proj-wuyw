@@ -1,24 +1,23 @@
 <template>
   <div id="home">
       <main-navbar></main-navbar>
-      <LandingBtn></LandingBtn>
       <HomeBase></HomeBase>
+      <AboutBase></AboutBase>
       <main-footer></main-footer>
   </div>
 </template>
 
 <script>
 import HomeBase from '@/components/Home/home--components/home-base.vue'
-import LandingBtn from '@/components/Home/home--components/landing-btn.vue'
+import AboutBase from '@/components/Home/about--components/about-base.vue'
 export default {
   name: 'Home',
   components: {
     'HomeBase': HomeBase,
-    'LandingBtn': LandingBtn
+    'AboutBase': AboutBase
   }
 }
 </script>
 
 <style lang="scss" scoped>
-
 </style>
