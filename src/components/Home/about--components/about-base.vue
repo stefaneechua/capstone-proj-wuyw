@@ -27,7 +27,7 @@ export default {
 div {
   p {
       margin-top: 100px;
-      font-size: 1.5em;
+      font-size: 1.2em;
       color: $cathorange;
   }
 }
