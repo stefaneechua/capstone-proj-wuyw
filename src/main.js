@@ -13,6 +13,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 // Global Components
 import Navbar from './components/Global/main-navbar.vue'
 import Footer from './components/Global/main-footer.vue'
+import SectionHeader from './components/Global/section-header.vue'
 
 // Import the styles directly. (Or you could add them via script tags.)
 import 'bootstrap/dist/css/bootstrap.css'
@@ -26,6 +27,7 @@ Vue.use(BootstrapVue)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.component('main-navbar', Navbar)
 Vue.component('main-footer', Footer)
+Vue.component('section-header', SectionHeader)
 
 Vue.config.productionTip = false
 

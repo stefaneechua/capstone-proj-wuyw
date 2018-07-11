@@ -1,12 +1,13 @@
 <template>
-  <b-container fluid>
-    <div id="hAbout" class="text-center">
+  <div id="AboutBase">
+    <section-header></section-header>
+    <b-container fluid class="text-center">
       <b-row>
-        <b-col><p>{{ minibio_p1 }}</p></b-col>
-        <b-col><p>{{ minibio_p2 }}</p></b-col>
+        <b-col sm><p>{{ minibio_p1 }}</p></b-col>
+        <b-col sm><p>{{ minibio_p2 }}</p></b-col>
       </b-row>
-    </div>
-  </b-container>
+    </b-container>
+  </div>
 </template>
 
 <script>
@@ -14,7 +15,7 @@ export default {
   name: '',
   data () {
     return {
-      minibio_p1: 'pakshetttttttt',
+      minibio_p1: 'lorem ipsum dolor',
       minibio_p2: 'put some text'
     }
   }
@@ -27,7 +28,7 @@ export default {
 div {
   p {
       margin-top: 100px;
-      font-size: 1.2em;
+      font-size: 2em;
       color: $cathorange;
   }
 }

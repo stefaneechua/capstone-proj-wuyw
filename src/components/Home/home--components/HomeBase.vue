@@ -1,6 +1,5 @@
 <template>
-  <div id="hHome" class="bg-skew">
-    <h1>TEST</h1>
+  <div id="HomeBase" class="bg-skew">
   </div>
 </template>
 
