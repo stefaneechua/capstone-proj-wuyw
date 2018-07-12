@@ -1,10 +1,22 @@
 <template>
-  <div id="HomeBase" class="bg-skew">
+  <div id="HomeBase">
+    <b-container fluid class="bg-skew">
+      <HomeBaseHeading/>
+      <HomeBaseBtn/>
+    </b-container>
   </div>
 </template>
 
 <script>
+import HomeBaseHeading from '@/components/Home/home--components/HomeBaseHeading.vue'
+import HomeBaseBtn from '@/components/Home/home--components/HomeBaseBtn.vue'
+
 export default {
+  name: '',
+  components: {
+    'HomeBaseHeading': HomeBaseHeading,
+    'HomeBaseBtn': HomeBaseBtn
+  }
 }
 </script>
 
