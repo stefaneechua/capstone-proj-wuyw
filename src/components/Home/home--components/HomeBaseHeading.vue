@@ -1,10 +1,10 @@
 <template>
   <div>
-    <b-container>
+    <b-container fluid class="text-center">
       <b-row>
-        <b-col sm>
+        <b-col>
             <vue-typer
-            :text='["Wake up your wow", "Wake up your potential"]'
+            :text='["Wake up your purpose.", "Wake up your potential.", "Wake up your wow."]'
             :shuffle='false'
             :repeat='Infinity'
             initial-action='typing'
@@ -14,8 +14,8 @@
             :erase-delay='250'
             erase-style='clear'
             :erase-on-complete='false'
-            caret-animation='phase'>
-            </vue-typer>
+            caret-animation='phase'
+            ></vue-typer>
         </b-col>
       </b-row>
     </b-container>
@@ -33,6 +33,12 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+@import "~scss/styles";
 
+.vue-typer {
+  font-family: 'Poppins', sans-serif;
+  font-size: 4em;
+  font-weight: bolder;
+}
 </style>

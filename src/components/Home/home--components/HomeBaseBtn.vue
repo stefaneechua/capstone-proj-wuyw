@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-button href="#">BIND</b-button>
+    <b-button href="#" size="lg" variant="outline-success">SHOW ME HOW</b-button>
   </div>
 </template>
 

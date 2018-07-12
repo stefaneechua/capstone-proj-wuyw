@@ -1,9 +1,11 @@
 <template>
   <div id="HomeBase">
-    <b-container fluid class="bg-skew">
-      <HomeBaseHeading/>
-      <HomeBaseBtn/>
-    </b-container>
+    <div class="bg-skew">
+      <div class="content">
+        <HomeBaseHeading/>
+        <HomeBaseBtn/>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -30,6 +32,12 @@ export default {
     transform: skew(0deg, -10deg);
     padding: 350px 0;
     margin-top: -120px;
+}
+
+.content {
+  width: 100%;
+  -webkit-transform: skew(0deg, 10deg);
+  transform: skew(0deg, 10deg);
 }
 
 </style>

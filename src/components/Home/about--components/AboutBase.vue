@@ -4,7 +4,7 @@
     <b-container fluid class="text-center">
       <b-row>
         <b-col sm><p>{{ minibio_p1 }}</p></b-col>
-        <b-col sm><p>{{ minibio_p2 }}</p></b-col>
+        <b-col sm><p>{{ minibio_p1 }}</p></b-col>
       </b-row>
     </b-container>
   </div>
@@ -15,8 +15,7 @@ export default {
   name: '',
   data () {
     return {
-      minibio_p1: 'lorem ipsum dolor',
-      minibio_p2: 'put some text'
+      minibio_p1: 'lorem ipsum dolor'
     }
   }
 }
