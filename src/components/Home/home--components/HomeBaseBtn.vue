@@ -1,6 +1,12 @@
 <template>
-  <div>
-    <b-button href="#" size="lg" variant="outline-success">SHOW ME HOW</b-button>
+  <div class="text-center">
+    <b-container>
+      <b-row>
+        <b-col>
+          <b-button href="#" size="lg" variant="outline-success" class="HomeBtn">SHOW ME HOW</b-button>
+        </b-col>
+      </b-row>
+    </b-container>
   </div>
 </template>
 
@@ -10,6 +16,10 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+div {
+  position: fixed;
+  margin-top: 30px;
+}
 
 </style>

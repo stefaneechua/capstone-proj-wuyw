@@ -40,5 +40,6 @@ export default {
   font-family: 'Poppins', sans-serif;
   font-size: 4em;
   font-weight: bolder;
+  margin: 0;
 }
 </style>

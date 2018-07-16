@@ -1,27 +1,29 @@
 <template>
   <header>
-    <h1>{{ SectionTitle }}</h1>
+    <h1 class="text-center">{{ SectionHeader }}</h1>
+    <h4 class="text-center">{{ SectionSubHeader}}</h4>
   </header>
 </template>
 
 <script>
 export default {
-  data () {
+  data: function () {
     return {
-      SectionTitle: 'About'
+      SectionHeader: ''
     }
   }
 }
 </script>
 
 <style lang="scss" scoped>
+@import "~scss/styles";
+
 header {
-  background: green;
+  margin: 40px;
   padding: 10px;
 }
 
-h1 {
-  color: #222;
-  text-align: center;
+h1, h4 {
+  color: $cathorange;
 }
 </style>

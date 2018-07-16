@@ -2,6 +2,9 @@
   <div id="HomeBase">
     <div class="bg-skew">
       <div class="content">
+        <parallax>
+          <img src="@/assets/images/cath-home.png" alt="very cool bg">
+        </parallax>
         <HomeBaseHeading/>
         <HomeBaseBtn/>
       </div>
@@ -12,12 +15,14 @@
 <script>
 import HomeBaseHeading from '@/components/Home/home--components/HomeBaseHeading.vue'
 import HomeBaseBtn from '@/components/Home/home--components/HomeBaseBtn.vue'
+import Parallax from 'vue-parallaxy'
 
 export default {
   name: '',
   components: {
     'HomeBaseHeading': HomeBaseHeading,
-    'HomeBaseBtn': HomeBaseBtn
+    'HomeBaseBtn': HomeBaseBtn,
+    Parallax
   }
 }
 </script>

@@ -20,6 +20,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 library.add(faCoffee)
+// check documentation
 library.add(faLinkedin)
 
 Vue.use(BootstrapVue)
@@ -27,7 +28,11 @@ Vue.use(BootstrapVue)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.component('main-navbar', Navbar)
 Vue.component('main-footer', Footer)
-Vue.component('section-header', SectionHeader)
+Vue.component('section-header', SectionHeader, {
+  // ask Ivan
+  props: ['title'],
+  template: '<h1>{{ SectionHeader }}</h1>'
+})
 
 Vue.config.productionTip = false
 
