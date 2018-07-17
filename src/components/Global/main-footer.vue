@@ -25,7 +25,9 @@
               <p>Mobile Here</p>
             </b-col>
             <iframe id="map-container" style="border:0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3192.485804690362!2d174.76276731529143!3d-36.85478897993737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0d47e5d0e974d9%3A0xd83592c310724072!2sStudio+38!5e0!3m2!1sen!2snz!4v1530531293577"></iframe>
-            <!-- Insert Copyright Here -->
+            <b-col sm>
+              <p id="copyright">{{ copyright }}</p>
+            </b-col>
           </b-row>
         </b-container>
       </footer>
@@ -34,7 +36,11 @@
 
 <script>
 export default {
-
+  data () {
+    return {
+      copyright: 'pakshettttttttttttttttttt'
+    }
+  }
 }
 </script>
 
@@ -45,7 +51,7 @@ export default {
     width: 100%;
     background-color: $studioblue;
     padding-top: 50px;
-    // nested styles
+
     #main-footer .row {
         margin: 0 85px;
     }
@@ -55,13 +61,11 @@ export default {
 }
 
 #map-container {
-    height: 240px;
     width: 100%;
+    height: 240px;
     margin-top: 30px;
-    display: flex;
-    display: -webkit-flex;
-    flex-direction: column;
-    -webkit-flex-direction: column;
+    @include flex;
+    @include dropshadow;
 }
 
 .content {
@@ -74,6 +78,13 @@ export default {
     color: white;
     flex: 0 0 auto;
     -webkit-flex: 1 0 auto;
+}
+
+#copyright {
+    width: 100%;
+    height: 50%;
+    background: $cathorange;
+    @include dropshadow;
 }
 
 </style>

@@ -8,6 +8,19 @@
   height: 100%;
 }
 
+
+// Mixins
+@mixin flex {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+}
+
+@mixin dropshadow {
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .6);
+}
+
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
