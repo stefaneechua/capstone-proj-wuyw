@@ -11,6 +11,11 @@
           <img :src="img" />
         </b-col>
       </b-row>
+      <b-row>
+        <b-col sm>
+        <main-button></main-button>
+        </b-col>
+      </b-row>
     </b-container>
   </div>
 </template>
