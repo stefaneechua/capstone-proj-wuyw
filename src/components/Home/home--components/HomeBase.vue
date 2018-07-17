@@ -2,9 +2,6 @@
   <div id="HomeBase">
     <div class="bg-skew">
       <div class="content">
-        <parallax>
-          <img src="@/assets/images/cath-home.png" alt="very cool bg">
-        </parallax>
         <HomeBaseHeading/>
         <HomeBaseBtn/>
       </div>
@@ -15,14 +12,12 @@
 <script>
 import HomeBaseHeading from '@/components/Home/home--components/HomeBaseHeading.vue'
 import HomeBaseBtn from '@/components/Home/home--components/HomeBaseBtn.vue'
-import Parallax from 'vue-parallaxy'
 
 export default {
   name: '',
   components: {
     'HomeBaseHeading': HomeBaseHeading,
-    'HomeBaseBtn': HomeBaseBtn,
-    Parallax
+    'HomeBaseBtn': HomeBaseBtn
   }
 }
 </script>
@@ -32,7 +27,9 @@ export default {
 
 .bg-skew {
     height: 100%;
-    background: $cathorange;
+    background-color: $cathorange;
+    background-blend-mode: overlay;
+    overflow: hidden;
     -webkit-transform: skew(0deg, -10deg);
     transform: skew(0deg, -10deg);
     padding: 350px 0;

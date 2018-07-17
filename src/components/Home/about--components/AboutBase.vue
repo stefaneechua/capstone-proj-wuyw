@@ -1,6 +1,6 @@
 <template>
   <div id="AboutBase">
-    <section-header title="PANDAAAAA"></section-header>
+    <section-header section-title="TEST ME!"></section-header>
     <b-container fluid class="text-center">
       <b-row>
         <b-col sm><p>{{ minibio }}</p></b-col>

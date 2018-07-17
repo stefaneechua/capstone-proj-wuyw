@@ -1,15 +1,15 @@
 <template>
   <header>
-    <h1 class="text-center">{{ SectionHeader }}</h1>
+    <h1 class="text-center">{{ sectionTitle }}</h1>
     <h4 class="text-center">{{ SectionSubHeader}}</h4>
   </header>
 </template>
 
 <script>
 export default {
-  data: function () {
+  data () {
     return {
-      SectionHeader: ''
+      sectionTitle: ''
     }
   }
 }

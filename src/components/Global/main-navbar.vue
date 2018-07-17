@@ -4,7 +4,7 @@
     <!-- Bootsrap-Vue -->
     <b-navbar toggleable="md" type="light" class="container-fluid">
       <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
-      <b-navbar-brand href="#">BRAND LOGO</b-navbar-brand>
+      <b-navbar-brand href="#"><img src="@/assets/images/logo.png" /></b-navbar-brand>
       <b-collapse is-nav id="nav_collapse">
         <b-navbar-nav class="ml-auto">
           <b-nav-item href="#">Home</b-nav-item>
@@ -36,13 +36,13 @@ $(window).scroll(function () {
 #main-navbar {
   width: 100%;
   background: white;
-}
-
-#main-navbar {
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
+  img {
+    width: 150px;
+  }
 }
 
 .dropshadow {
