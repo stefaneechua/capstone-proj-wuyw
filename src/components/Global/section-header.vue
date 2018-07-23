@@ -1,28 +1,22 @@
 <template>
   <header>
-    <h1 class="text-center">{{ sectionTitle }}</h1>
-    <h4 class="text-center">{{ SectionSubHeader}}</h4>
+    <h1 class="text-center">{{ title }}</h1>
   </header>
 </template>
 
 <script>
 export default {
-  data () {
-    return {
-      sectionTitle: ''
-    }
-  }
+  props: ['title'],
+  template: '<h1>{{ title }}</h1>'
 }
 </script>
 
 <style lang="scss" scoped>
 @import "~scss/styles";
-
 header {
   margin: 40px;
   padding: 10px;
 }
-
 h1, h4 {
   color: $cathorange;
 }

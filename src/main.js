@@ -29,11 +29,7 @@ Vue.use(BootstrapVue)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.component('main-navbar', Navbar)
 Vue.component('main-footer', Footer)
-Vue.component('section-header', SectionHeader, {
-  // ask Ivan
-  props: ['sectionTitle'],
-  template: '<h1>{{ sectionTitle }}</h1>'
-})
+Vue.component('section-header', SectionHeader)
 Vue.component('main-button', MainButton)
 
 Vue.config.productionTip = false

@@ -1,6 +1,6 @@
 <template>
   <div id="AboutBase">
-    <section-header section-title="TEST ME!"></section-header>
+    <section-header title="TEST ME!"></section-header>
     <b-container fluid class="text-center">
       <b-row>
         <b-col sm><p>{{ minibio }}</p></b-col>
@@ -22,7 +22,6 @@
 
 <script>
 import image from '@/assets/images/cath-banner.jpg'
-
 export default {
   name: '',
   data () {
@@ -36,7 +35,6 @@ export default {
 
 <style lang="scss" scoped>
 @import "~scss/styles";
-
 div {
   p {
       margin: 10% 20%;
@@ -47,5 +45,4 @@ div {
     width: 50%;
   }
 }
-
 </style>
