@@ -14,6 +14,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import Navbar from './components/Global/main-navbar.vue'
 import Footer from './components/Global/main-footer.vue'
 import SectionHeader from './components/Global/section-header.vue'
+import SectionSubHeader from './components/Global/section-subheader.vue'
 import MainButton from './components/Global/main-button.vue'
 
 // Bootstrap + Bootstrap-Vue
@@ -30,6 +31,7 @@ Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.component('main-navbar', Navbar)
 Vue.component('main-footer', Footer)
 Vue.component('section-header', SectionHeader)
+Vue.component('section-subheader', SectionSubHeader)
 Vue.component('main-button', MainButton)
 
 Vue.config.productionTip = false

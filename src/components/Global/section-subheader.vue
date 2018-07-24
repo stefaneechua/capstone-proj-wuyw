@@ -1,13 +1,13 @@
 <template>
   <header>
-    <h1 class="text-center">{{ title }}</h1>
+    <h4 class="text-center">{{ subtitle }}</h4>
   </header>
 </template>
 
 <script>
 export default {
-  props: ['title'],
-  template: '<h1>{{ title }}</h1>'
+  props: ['subtitle'],
+  template: '<h4>{{ subtitle }}</h4>'
 }
 </script>
 
@@ -18,7 +18,7 @@ header {
   padding: 10px;
 }
 
-h1 {
+h4 {
   color: $cathorange;
 }
 </style>

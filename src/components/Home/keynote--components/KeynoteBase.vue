@@ -8,13 +8,13 @@
           <h3>{{ KeynoteTitle }}</h3>
             <h5>{{ KeynoteSub }}</h5>
             <p>{{ KeynoteDesc }}</p>
-            <main-button></main-button>
+            <main-button button="this is a button"></main-button>
         </b-col>
         <b-col sm>
           <h3>{{ KeynoteTitle }}</h3>
             <h5>{{ KeynoteSub }}</h5>
             <p>{{ KeynoteDesc }}</p>
-            <main-button></main-button>
+            <main-button button="this is another button"></main-button>
         </b-col>
       </b-row>
     </b-container>

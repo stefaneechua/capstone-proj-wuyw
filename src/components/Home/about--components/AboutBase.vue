@@ -1,6 +1,7 @@
 <template>
   <div id="AboutBase">
     <section-header title="TEST ME!"></section-header>
+    <section-subheader subtitle="Subheader"></section-subheader>
     <b-container fluid class="text-center">
       <b-row>
         <b-col sm><p>{{ minibio }}</p></b-col>
@@ -13,7 +14,7 @@
       </b-row>
       <b-row>
         <b-col sm>
-        <main-button></main-button>
+        <main-button button="hello"></main-button>
         </b-col>
       </b-row>
     </b-container>
