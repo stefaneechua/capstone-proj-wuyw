@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section-header title="PLS WORK"></section-header>
+    <section-header title="KEYNOTES"></section-header>
     <parallax><img src="@/assets/images/cath-keynotes.png" alt="" id=test /></parallax>
     <b-container fluid id="boo" class="text-center">
       <b-row>

@@ -1,6 +1,6 @@
 <template>
   <div id="AboutBase">
-    <section-header title="TEST ME!"></section-header>
+    <section-header title="ABOUT"></section-header>
     <section-subheader subtitle="Subheader"></section-subheader>
     <b-container fluid class="text-center">
       <b-row>
