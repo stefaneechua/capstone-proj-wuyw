@@ -1,23 +1,24 @@
 <template>
   <div>
     <section-header title="KEYNOTES"></section-header>
-    <parallax><img src="@/assets/images/cath-keynotes.png" alt="" id=test /></parallax>
-    <b-container fluid id="boo" class="text-center">
-      <b-row>
-        <b-col sm>
+    <div id="boo" class="container-fluid text-center">
+      <div class="row">
+        <div class="col-md-6 text-center">
           <h3>{{ KeynoteTitle }}</h3>
             <h5>{{ KeynoteSub }}</h5>
             <p>{{ KeynoteDesc }}</p>
-            <main-button button="this is a button"></main-button>
-        </b-col>
-        <b-col sm>
+            <button type="button" class="btn btn-primary btn-lg d-block mx-auto my-3">JULIA!</button>
+            <button type="button" class="btn btn-primary btn-lg d-block mx-auto">JULIA!</button>
+        </div>
+        <div class="col-md-6">
           <h3>{{ KeynoteTitle }}</h3>
             <h5>{{ KeynoteSub }}</h5>
             <p>{{ KeynoteDesc }}</p>
-            <main-button button="this is another button"></main-button>
-        </b-col>
-      </b-row>
-    </b-container>
+            <button type="button" class="btn btn-primary btn-lg d-block mx-auto my-3">JULIA!</button>
+            <button type="button" class="btn btn-primary btn-lg d-block mx-auto">JULIA!</button>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -38,18 +39,4 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#test {
-  width: 100%;
-  height: 50%;
-}
-
-#boo {
-  background: yellow no-repeat right top;
-  height: 500px;
-  h3 {
-    width: 100%;
-    height: 100%;
-    background: orange;
-  }
-}
 </style>
