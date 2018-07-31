@@ -6,6 +6,7 @@
       <ChecklistBase/>
       <KeynoteBase/>
       <ClientsBase/>
+      <ShopPreviewBase/>
       <SubscribeBase/>
       <main-footer></main-footer>
   </div>
@@ -17,6 +18,7 @@ import AboutBase from '@/components/Home/about--components/AboutBase.vue'
 import ChecklistBase from '@/components/Home/checklist--components/ChecklistBase.vue'
 import KeynoteBase from '@/components/Home/keynote--components/KeynoteBase.vue'
 import ClientsBase from '@/components/Home/clients--components/ClientsBase.vue'
+import ShopPreviewBase from '@/components/Home/shoppreview--components/ShopPreviewBase.vue'
 import SubscribeBase from '@/components/Home/subscribe--components/SubscribeBase.vue'
 
 export default {
@@ -27,6 +29,7 @@ export default {
     'ChecklistBase': ChecklistBase,
     'KeynoteBase': KeynoteBase,
     'ClientsBase': ClientsBase,
+    'ShopPreviewBase': ShopPreviewBase,
     'SubscribeBase': SubscribeBase
   }
 }
