@@ -3,12 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-
 import BootstrapVue from 'bootstrap-vue/dist/bootstrap-vue.esm'
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 // Global Components
 import Navbar from './components/Global/main-navbar.vue'
@@ -21,13 +16,8 @@ import MainButton from './components/Global/main-button.vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
-library.add(faCoffee)
-// check documentation
-library.add(faLinkedin)
-
 Vue.use(BootstrapVue)
 
-Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.component('main-navbar', Navbar)
 Vue.component('main-footer', Footer)
 Vue.component('section-header', SectionHeader)

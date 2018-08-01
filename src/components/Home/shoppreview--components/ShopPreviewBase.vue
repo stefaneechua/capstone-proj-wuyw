@@ -1,7 +1,7 @@
 <template>
   <div class=container-fluid>
-    <section-header title="PLS WORK!"></section-header>
-    <p>LOREM IPSUM LOREM IPSUM</p>
+    <section-header title="WOW SHOP"></section-header>
+    <section-subheader subtitle="—shop subheader"></section-subheader>
   </div>
 </template>
 

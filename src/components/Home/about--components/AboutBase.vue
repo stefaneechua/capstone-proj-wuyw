@@ -1,23 +1,15 @@
 <template>
-  <div id="AboutBase">
-    <section-header title="ABOUT"></section-header>
-    <section-subheader subtitle="Subheader"></section-subheader>
-    <b-container fluid class="text-center">
-      <b-row>
-        <b-col sm><p>{{ minibio }}</p></b-col>
-        <b-col sm><p>{{ minibio }}</p></b-col>
-      </b-row>
-      <b-row>
-        <b-col sm>
-          <img :src="img" />
-        </b-col>
-      </b-row>
-      <b-row>
-        <b-col sm>
-        <main-button button="hello"></main-button>
-        </b-col>
-      </b-row>
-    </b-container>
+  <div id="AboutBase" class="container text-center">
+    <section-header title="ABOUT HEADER"></section-header>
+    <section-subheader subtitle="—about subheader"></section-subheader>
+      <div class="row">
+        <div class="col-sm-6 form-group text-justify">{{ minibio }}</div>
+        <div class="col-sm-6 form-group text-justify">{{ minibio }}</div>
+      </div>
+      <div class="row">
+        <div class="col form-group"><img :src="img" /></div>
+      </div>
+    <main-button button="DIS BICH BETTER WORK"></main-button>
   </div>
 </template>
 
@@ -36,14 +28,9 @@ export default {
 
 <style lang="scss" scoped>
 @import "~scss/styles";
-div {
-  p {
-      margin: 10% 20%;
-      font-size: 1em;
-      color: #000;
-  }
-  img {
+
+img {
     width: 50%;
-  }
 }
+
 </style>

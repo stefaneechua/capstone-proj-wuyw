@@ -1,24 +1,19 @@
 <template>
   <header>
-    <h4 class="text-center">{{ subtitle }}</h4>
+    <h6 class="text-center">{{ subtitle }}</h6>
   </header>
 </template>
 
 <script>
 export default {
   props: ['subtitle'],
-  template: '<h4>{{ subtitle }}</h4>'
+  template: '<h6>{{ subtitle }}</h6>'
 }
 </script>
 
 <style lang="scss" scoped>
 @import "~scss/styles";
-header {
-  margin: 40px;
-  padding: 10px;
-}
-
-h4 {
-  color: $cathorange;
+h6 {
+  margin-bottom: 50px;
 }
 </style>

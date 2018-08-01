@@ -14,11 +14,6 @@ export default {
 <style lang="scss" scoped>
 @import "~scss/styles";
 header {
-  margin: 40px;
-  padding: 10px;
-}
-
-h1 {
-  color: $cathorange;
+  margin-top: 50px;
 }
 </style>

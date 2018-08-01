@@ -1,11 +1,33 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+// Colors
+$cathorange: #FF671F;
+$studioblue: #00C1D5;
+$wildered: #BA0C2F;
+$base: #FFFFFF;
+
 // Global
 *,
 *:before,
 *:after {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
   height: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+// Functions: Headers
+@function headings($from:1, $to:6) {
+  @if $from == $to {
+      @return 'h#{$from}';
+  } @else {
+      @return 'h#{$from},' + headings($from+1, $to);
+  }
+}
+
+#{headings(1,6)} {
+  color: $cathorange;
+  font-weight: bolder;
 }
 
 // Mixins
@@ -16,15 +38,13 @@
   -webkit-flex-direction: column;
 }
 
+@mixin parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 @mixin dropshadow {
   box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .6);
 }
-
-// Fonts
-@import url('https://fonts.googleapis.com/css?family=Poppins');
-
-// Colors
-$cathorange: #FF671F;
-$studioblue: #00C1D5;
-$wildered: #BA0C2F;
-$base: #FFFFFF;

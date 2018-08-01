@@ -1,13 +1,11 @@
 <template>
-  <button class="Button">
-    <b-button href="#" size="lg" variant="primary">{{ button }}</b-button>
-  </button>
+  <button type="button" class="btn btn-primary btn-lg">{{ button }}</button>
 </template>
 
 <script>
 export default {
   props: ['button'],
-  template: '<b-button>{{ button }}</b-button>'
+  template: '<main-button>{{ button }}</main-button>'
 }
 </script>
 
