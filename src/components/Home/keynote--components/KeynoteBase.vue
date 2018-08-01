@@ -56,7 +56,7 @@ export default {
 
 .parallax {
   @include parallax;
-  background-color: $studioblue;
+  background-color: $cathorange;
   background-blend-mode: overlay;
 }
 

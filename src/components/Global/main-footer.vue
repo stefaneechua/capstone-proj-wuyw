@@ -71,7 +71,6 @@ export default {
 .content {
     flex: 1 0 auto;
     -webkit-flex: 1 0 auto;
-    min-height: 200px;
 }
 
 #main-footer {
