@@ -22,6 +22,18 @@
             <div class="item carousel-item active">
               <div class="img-box"><img src="/examples/images/clients/1.jpg" alt=""></div>
               <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
+              <p class="overview"><b>Julie</b>, Media Analyst</p>
+            </div>
+            <!-- Carousel 01-->
+            <div class="item carousel-item">
+              <div class="img-box"><img src="/examples/images/clients/1.jpg" alt=""></div>
+              <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
+              <p class="overview"><b>Panda</b>, Media Analyst</p>
+            </div>
+            <!-- Carousel 02-->
+            <div class="item carousel-item">
+              <div class="img-box"><img src="/examples/images/clients/1.jpg" alt=""></div>
+              <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
               <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
             </div>
           </div>

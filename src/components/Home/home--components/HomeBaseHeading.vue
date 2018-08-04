@@ -41,5 +41,6 @@ export default {
   font-size: 4em;
   font-weight: bolder;
   margin: 0;
+  -webkit-text-fill-color: $base;
 }
 </style>
