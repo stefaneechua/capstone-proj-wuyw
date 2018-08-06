@@ -1,6 +1,6 @@
 <template>
   <div id="SubscribeBase" class="container-fluid text-center">
-    <div class="py-5 bg-image-full parallax" style="background-image: url('https://unsplash.it/1900/1080?image=1076');">
+    <div class="py-5 bg-image-full parallax" v-bind:style="style">
     <section-header title="HEY PLS WORK"></section-header>
     <section-subheader subtitle="JULIAAAAAAA"></section-subheader>
       <div class="container text-center" id="subform">
@@ -22,7 +22,15 @@
 </template>
 
 <script>
+import image from '@/assets/images/cathfooter.png'
 export default {
+  data () {
+    return {
+      style: {
+        backgroundImage: `url(${image})`
+      }
+    }
+  }
 }
 </script>
 
@@ -35,9 +43,11 @@ export default {
 }
 
 .parallax {
-  @include parallax;
+  // @include parallax;
+  // background-image: url(./assets/images/cathfooter.png);
+  // background-image: this.img;
   background-color: $studioblue;
-  background-blend-mode: overlay;
+  // background-blend-mode: overlay;
 }
 
   #subform {

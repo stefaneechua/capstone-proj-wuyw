@@ -1,9 +1,11 @@
 <template>
   <div id="HomeBase">
-    <div class="bg-skew">
+    <div class="bg-skew" :style="style">
+      <div class="bg-img">
       <div class="content">
         <HomeBaseHeading/>
         <HomeBaseBtn/>
+      </div>
       </div>
     </div>
   </div>
@@ -12,8 +14,15 @@
 <script>
 import HomeBaseHeading from '@/components/Home/home--components/HomeBaseHeading.vue'
 import HomeBaseBtn from '@/components/Home/home--components/HomeBaseBtn.vue'
-
+import image from '@/assets/images/cathfooter.png'
 export default {
+  data () {
+    return {
+      style: {
+        backgroundImage: `url(${image})`
+      }
+    }
+  },
   name: '',
   components: {
     'HomeBaseHeading': HomeBaseHeading,

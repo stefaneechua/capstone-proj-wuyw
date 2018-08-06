@@ -4,6 +4,7 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import BootstrapVue from 'bootstrap-vue/dist/bootstrap-vue.esm'
+import VueCarousel from 'vue-carousel'
 
 // Global Components
 import Navbar from './components/Global/main-navbar.vue'
@@ -17,6 +18,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 Vue.use(BootstrapVue)
+Vue.use(VueCarousel)
 
 Vue.component('main-navbar', Navbar)
 Vue.component('main-footer', Footer)
