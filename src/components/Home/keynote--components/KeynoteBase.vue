@@ -1,5 +1,5 @@
 <template>
-  <div id="KeynotesBase" class="container-fluid text-center">
+  <div id="KeynoteBase" class="container-fluid text-center">
     <section-header title="KEYNOTES"></section-header>
     <section-subheader subtitle="—services"></section-subheader>
     <div class="py-5 bg-image-full parallax" style="background-image: url('https://unsplash.it/1900/1080?image=1076');">
@@ -13,8 +13,8 @@
               <h3 class="card-title">{{ KeynoteTitle }}</h3>
               <h5 class="card-text">{{ KeynoteSub }}</h5>
               <p>{{ KeynoteDesc }}</p>
-              <button type="button" class="btn btn-primary btn-block btn-lg d-block mx-auto my-3">JULIA!</button>
-              <button type="button" class="btn btn-primary btn-block btn-lg d-block mx-auto">JULIA!</button>
+              <button type="button" class="btn btn-primary btn-block btn-lg d-block mx-auto my-3">LOREM IPSUM</button>
+              <button type="button" class="btn btn-primary btn-block btn-lg d-block mx-auto">LOREM IPSUM</button>
             </div>
           </div>
         </div>
@@ -24,8 +24,8 @@
               <h3 class="card-title">{{ KeynoteTitle }}</h3>
               <h5 class="card-text">{{ KeynoteSub }}</h5>
               <p>{{ KeynoteDesc }}</p>
-              <button type="button" class="btn btn-primary btn-block btn-lg d-block mx-auto my-3">JULIA!</button>
-              <button type="button" class="btn btn-primary btn-block btn-lg d-block mx-auto">JULIA!</button>
+              <button type="button" class="btn btn-primary btn-block btn-lg d-block mx-auto my-3">LOREM IPSUM</button>
+              <button type="button" class="btn btn-primary btn-block btn-lg d-block mx-auto">LOREM IPSUM</button>
             </div>
           </div>
         </div>

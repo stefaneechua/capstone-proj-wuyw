@@ -1,6 +1,6 @@
 <template>
   <div id="AboutBase" class="container text-center">
-    <section-header title="ABOUT HEADER"></section-header>
+    <section-header title="ABOUT"></section-header>
     <section-subheader subtitle="—about subheader"></section-subheader>
       <div class="row">
         <div class="col-sm-6 form-group text-justify">{{ minibio }}</div>
@@ -9,7 +9,7 @@
       <div class="row">
         <div class="col form-group"><img :src="img" /></div>
       </div>
-    <main-button button="DIS BICH BETTER WORK"></main-button>
+    <main-button button="LOREM IPSUM DOLOR"></main-button>
   </div>
 </template>
 

@@ -1,11 +1,9 @@
 <template>
   <div id="HomeBase">
-    <div class="bg-skew" :style="style">
-      <div class="bg-img">
+    <div class="bg-skew" v-bind:style="style">
       <div class="content">
         <HomeBaseHeading/>
         <HomeBaseBtn/>
-      </div>
       </div>
     </div>
   </div>
@@ -19,7 +17,8 @@ export default {
   data () {
     return {
       style: {
-        backgroundImage: `url(${image})`
+        backgroundImage: `url(${image})`,
+        transform: `skew(0deg, -10deg)`
       }
     }
   },
@@ -35,17 +34,23 @@ export default {
 @import "~scss/styles";
 
 .bg-skew {
-    height: 100%;
-    background-color: $cathorange;
-    background-blend-mode: overlay;
-    overflow: hidden;
-    -webkit-transform: skew(0deg, -10deg);
-    transform: skew(0deg, -10deg);
-    padding: 350px 0;
-    margin-top: -120px;
+  height: 100%;
+  background-color: $cathorange;
+  background-blend-mode: overlay;
+  overflow: hidden;
+  -webkit-transform: skew(0deg, -10deg);
+  transform: skew(0deg, -10deg);
+  padding: 350px 0;
+  margin-top: -60px;
+}
+
+.bg-img {
+  -webkit-transform: skew(0deg, -10deg);
+  transform: skew(0deg, -10deg);
 }
 
 .content {
+  height: 100%;
   width: 100%;
   -webkit-transform: skew(0deg, 10deg);
   transform: skew(0deg, 10deg);

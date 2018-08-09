@@ -44,7 +44,7 @@ export default {
   background-size: cover;
   -webkit-transform: skew(0deg, 10deg);
   transform: skew(0deg, 10deg);
-  padding: 100px 0 350px;
+  padding: 80px 0 50px;
   margin-top: 50px;
 }
 
