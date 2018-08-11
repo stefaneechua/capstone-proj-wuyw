@@ -42,14 +42,6 @@ export default {
     }
   }
 }
-/* IGNORE ME!!!!!!!!!!!!!
-$(window).scroll(function () {
-  if ($(this).scrollTop()) {
-    $('#main-navbar').addClass('dropshadow')
-  } else {
-    $('#main-navbar').removeClass('dropshadow')
-  }
-}) */
 </script>
 
 <style lang="scss" scoped>

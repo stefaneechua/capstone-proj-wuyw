@@ -1,14 +1,21 @@
 <template>
-  <div class="text-center">
-    <carousel>
+  <div class="container text-center">
+    <carousel :autoplay="true" perPage="1" speed="1000">
       <slide>
-      Slide 1 Content
+      <img src="http://cdn.osxdaily.com/wp-content/uploads/2015/02/facebook-app-icon.png" />
+      <p> Lorem ipsum dolor amet....</p>
+      <p> -Jane Doe</p>
+      <p> Head of Sales, KPMG</p>
       </slide>
       <slide>
-      Slide 2 Content
+      <p> Lorem ipsum dolor amet....</p>
+      <p> -Steph Chua</p>
+      <p> Babygirl</p>
       </slide>
       <slide>
-      Slide 4 Content
+      <p> YAAAAAH G</p>
+      <p> -Yen Jabson</p>
+      <p> Cutie</p>
       </slide>
       <slide>
       Slide 5 Content
@@ -19,7 +26,6 @@
 
 <script>
 export default {
-  name: 'CarouselTwo'
 }
 </script>
 
@@ -40,4 +46,5 @@ export default {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 </style>
