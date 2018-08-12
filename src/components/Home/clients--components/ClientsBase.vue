@@ -1,24 +1,21 @@
 <template>
   <div class="container text-center">
-    <carousel :autoplay="true" perPage="1" speed="1000">
+    <section-header title="CLIENTS"></section-header>
+    <carousel :autoplay="true" perPage="1" speed="3000">
       <slide>
-      <img src="http://cdn.osxdaily.com/wp-content/uploads/2015/02/facebook-app-icon.png" />
-      <p> Lorem ipsum dolor amet....</p>
-      <p> -Jane Doe</p>
-      <p> Head of Sales, KPMG</p>
+      <img id="client-logo" src="https://www.foresthillchase.com.au/uploads/images/stores/anz-bank.jpg" />
+      <p class="h4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+      <p class="h6"> -Jane Doe, Head of Sales</p>
       </slide>
       <slide>
-      <p> Lorem ipsum dolor amet....</p>
-      <p> -Steph Chua</p>
-      <p> Babygirl</p>
+      <img id="client-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flight_Centre_Logo.jpg/220px-Flight_Centre_Logo.jpg" />
+      <p class="h4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+      <p class="h6"> -Juliea McSilver, Executive</p>
       </slide>
       <slide>
-      <p> YAAAAAH G</p>
-      <p> -Yen Jabson</p>
-      <p> Cutie</p>
-      </slide>
-      <slide>
-      Slide 5 Content
+      <img id="client-logo" src="https://botw-pd.s3.amazonaws.com/styles/logo-thumbnail/s3/022011/tetra_pak_spn.png?itok=-LcFxy12" />
+      <p class="h4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+      <p class="h6"> -Yen Jabson, Director</p>
       </slide>
       </carousel>
   </div>
@@ -30,14 +27,16 @@ export default {
 </script>
 
 <style>
+
 .VueCarousel-slide {
   position: relative;
-  background: #42b983;
+  background: #FF671F;
   color: #fff;
   font-family: Arial;
   font-size: 24px;
   text-align: center;
-  min-height: 100px;
+  min-height: 200px;
+  padding: 50px;
 }
 
 .label {
@@ -45,6 +44,11 @@ export default {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+#client-logo {
+  width: 80px;
+  border-radius:50%;
 }
 
 </style>

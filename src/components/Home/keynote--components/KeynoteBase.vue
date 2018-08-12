@@ -3,7 +3,7 @@
     <section-header title="KEYNOTES"></section-header>
     <section-subheader subtitle="—services"></section-subheader>
     <div class="py-5 bg-image-full parallax" style="background-image: url('https://unsplash.it/1900/1080?image=1076');">
-      <img class="img-fluid d-block mx-auto" src="http://placehold.it/200x200&text=Logo" alt="">
+      <img class="img-fluid d-block mx-auto" src="@/assets/images/cath-origami.png" alt="Cath Logo">
     </div>
     <div class="container">
       <div class="row">

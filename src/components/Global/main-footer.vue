@@ -9,18 +9,18 @@
       <div class="row">
         <!-- Address -->
         <div class="col-sm-4">
-          <p>Address Line 1</p>
-          <p>Address Line 2</p>
-          <p>Address Line 3</p>
+          <p>38 Airedale Street</p>
+          <p>Auckland 1011</p>
+          <p>New Zealand</p>
         </div>
         <div class="col-sm-4">
           <a href="#" ><i class="fab fa-linkedin fa-5x"></i></a>
           <a href="#" ><i class="fab fa-facebook-square fa-5x"></i></a>
         </div>
         <div class="col-sm-4">
-          <p>Name here</p>
-          <p>Email Here</p>
-          <p>Mobile Here</p>
+          <p>Cath Vincent</p>
+          <p>cathvincent@wow.com</p>
+          <p>+64 21 123 1111</p>
         </div>
       </div>
       <div class="container-fluid">
@@ -30,7 +30,7 @@
       </div>
       <footer class="medium text-center text-white-50">
       <div class="container">
-        Copyright &copy; Your Website 2018
+        Copyright &copy; Stefanee Chua
       </div>
       </footer>
   </div>
